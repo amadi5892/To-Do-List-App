@@ -1,4 +1,5 @@
 import AddCard from './components/note-card/addCard.component';
+import Card from './components/card/card.component'
 
 import './App.css';
 
@@ -9,6 +10,7 @@ function App() {
       <div className='entry-container' >
         <AddCard />
       </div>
+      <Card />
     </div>
   );
 }

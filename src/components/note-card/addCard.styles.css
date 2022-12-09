@@ -15,7 +15,6 @@ label {
     margin: 10px 0;
 }
 
-input[type='text'],
 textarea {
     border: 1px solid #fff;
     border-radius: 2px;
@@ -25,10 +24,6 @@ textarea {
     width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     background-color: rgba(232, 230, 230. 0.4);
-}
-
-.idx {
-    text-align: left; 
 }
 
 .add-card {
