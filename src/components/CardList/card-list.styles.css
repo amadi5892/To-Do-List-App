@@ -9,3 +9,7 @@
     text-align: left;
     background-color: #6A8D92;  
 }
+
+ul {
+    list-style-type: none;
+}
