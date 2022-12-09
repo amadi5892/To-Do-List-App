@@ -5,8 +5,11 @@ import './card-list.styles.css'
 
 const CardList = ({note}) => {
   return (
-    <div className='card-container' >
+    <div className='card-list-container' >
       <ul>
+        <Note />
+        <Note />
+        <Note />
         <Note />
       </ul>
     </div>

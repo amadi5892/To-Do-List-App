@@ -1,0 +1,41 @@
+.list-container {
+    display: flex;
+    border-radius: 50px;
+    box-shadow: 2px 3px 3px #A1E887, -2px -3px 3px #A1E887;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    margin: 10px auto;
+    text-align: left;
+    background-color: #6A8D92;
+}
+
+.accept-btn {
+    display: block;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 1px 2px 3px #80B192;
+    background-color: #A1E887;
+    color: #4B4E6D;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.accept-btn:hover {
+    opacity: 0.75;
+}
+
+.delete-btn {
+    display: block;
+    border: 0;
+    border-radius: 2px;
+    box-shadow: 1px 2px 3px #80B192;
+    background-color: #4B4E6D;
+    color: #A1E887;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.delete-btn:hover {
+    opacity: 0.75;
+}
