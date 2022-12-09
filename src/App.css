@@ -11,7 +11,7 @@ font-family: 'Source Sans Pro', sans-serif;*/
 
 * {
     margin: 0;
-    padding: 0;
+    padding: 0 10px;
     box-sizing: border-box;
 }
 
@@ -23,8 +23,20 @@ body {
     background-color: #80B192;
 }
 
+.app {
+    min-height: 100vh;
+    
+}
+
 .app-title {
     font-size: 4.6875em;
     color: #493548;
     text-shadow: 1px 1px 2px #A1E887, 0 0 1em #493548, 0 0 0.2em #493548;
+    margin-bottom: 40px;
+}
+
+.entry-container {
+    position: absolute;
+    top: 40%;
+    left: 0;
 }
