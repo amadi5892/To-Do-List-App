@@ -1,3 +1,30 @@
-.app {
-    
+/* App Colors
+English Violet - #493548
+Independence - #4B4E6D
+Steel Teal - #6A8D92
+Dark Sea Green - #80B192
+Light Green - #A1E887
+
+Fonts
+font-family: 'Libre Baskerville', serif;
+font-family: 'Source Sans Pro', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    background-color: #80B192;
+}
+
+.app-title {
+    font-size: 4.6875em;
+    color: #493548;
+    text-shadow: 1px 1px 2px #A1E887, 0 0 1em #493548, 0 0 0.2em #493548;
 }
