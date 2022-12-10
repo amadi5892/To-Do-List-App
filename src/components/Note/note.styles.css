@@ -1,5 +1,7 @@
 .list-container {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     border-radius: 50px;
     box-shadow: 2px 3px 3px #A1E887, -2px -3px 3px #A1E887;
     height: 100%;
@@ -38,4 +40,12 @@
 
 .delete-btn:hover {
     opacity: 0.75;
+}
+
+.btn-div {
+    display: flex;
+}
+
+.note-text.completed {
+    text-decoration: line-through;
 }

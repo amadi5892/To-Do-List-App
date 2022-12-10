@@ -36,7 +36,20 @@ body {
 }
 
 .entry-container {
-    position: absolute;
-    top: 50%;
-    left: 0;
+    position: relative;
+    top: 35%;
+    left: 5%;
+}
+
+.dropdown {
+    margin: 10px auto;
+    padding: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    background-color: #4B4E6D;
+    color: #A1E887;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    
 }
